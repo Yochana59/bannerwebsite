@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.App-header, .App-footer {
+  background-color: #4b5058;
+  color: white;
+  padding: 10px 20px; /* Reduced padding for a smaller box */
+  text-align: center;
+}
+
+.header-container, .footer-container {
+  max-width: 1000px; /* Reduce max-width to match a smaller layout */
+  margin: 0 auto;
+  padding: 3px 0; /* Reduced internal padding */
+}
+
+
+
+.App-header p {
+  font-size: 1.1em;
+  margin: 0.3em 0;
+}
+
+.App-main {
+  flex: 1;
+  padding: 15px 20px; /* Reduced padding */
+  background-color: #f8f9fa;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8em; /* Smaller font size for footer text */
+  padding: 2px 0px;
+}
